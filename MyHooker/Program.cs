@@ -56,7 +56,6 @@ namespace MyHooker
             PROCESS_INFORMATION pi = new PROCESS_INFORMATION();
             string myAppPath = Directory.GetCurrentDirectory() + "..\\..\\..\\..\\MyApp\\bin\\Debug\\MyApp.exe";
             CreateProcess(myAppPath, null, IntPtr.Zero, IntPtr.Zero, false, 0, IntPtr.Zero, null, ref si, out pi);
-            Console.ReadLine();
         }
     }
 }
