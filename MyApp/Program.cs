@@ -11,7 +11,7 @@ namespace MyApp
         static void Main(string[] args)
         {
             var stringPrinter = new MyLibrary.MyStringPrinter();
-            stringPrinter.PrintString("Hello, world");
+            stringPrinter.PrintString();
         }
     }
 }

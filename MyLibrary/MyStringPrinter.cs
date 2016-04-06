@@ -8,9 +8,11 @@ namespace MyLibrary
 {
     public class MyStringPrinter
     {
-        public void PrintString(string str)
+        public void PrintString()
         {
-            Console.WriteLine(str);
+            string input = Console.ReadLine();
+            Console.WriteLine($"you typed {input}");
+            Console.ReadLine();
         }
     }
 }
