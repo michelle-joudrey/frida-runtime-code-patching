@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHooker", "MyHooker\MyHooker.csproj", "{1C7226F5-2719-4444-A7EC-998D1B2499F2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "MyApp\MyApp.csproj", "{AF8DC9AF-6BB2-4A1F-979E-CBBD5389CA9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary", "MyLibrary\MyLibrary.csproj", "{AA85E993-8D7A-4F86-BAB2-04C6E1647CA2}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1C7226F5-2719-4444-A7EC-998D1B2499F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C7226F5-2719-4444-A7EC-998D1B2499F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C7226F5-2719-4444-A7EC-998D1B2499F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C7226F5-2719-4444-A7EC-998D1B2499F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF8DC9AF-6BB2-4A1F-979E-CBBD5389CA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AF8DC9AF-6BB2-4A1F-979E-CBBD5389CA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8DC9AF-6BB2-4A1F-979E-CBBD5389CA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
